@@ -10,6 +10,10 @@ namespace Local_Methods
     {
         static void Main(string[] args)
         {
+            LocalMethodExample localMethod = new LocalMethodExample();
+            localMethod.InstanceLocalMethod();
+            Console.ReadLine();
+            //49
         }
     }
 }

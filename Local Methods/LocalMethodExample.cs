@@ -8,7 +8,7 @@ namespace Local_Methods
 {
    public  class LocalMethodExample
     {
-        public static void InstanceLocalMethod() 
+        public  void InstanceLocalMethod() 
         {
             int x = 7;
             Console.WriteLine( Cal());
