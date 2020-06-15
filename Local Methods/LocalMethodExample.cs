@@ -14,6 +14,13 @@ namespace Local_Methods
             Console.WriteLine( Cal());
             int Cal ()  => x * x;
         }
+
+        public void StaticLocalMethod()
+        {
+            int x = 7;
+            Console.WriteLine(Cal(x));
+            static int Cal(int xx) => xx * xx;
+        }
         
 
     }
