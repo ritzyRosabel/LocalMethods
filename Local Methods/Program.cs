@@ -12,8 +12,13 @@ namespace Local_Methods
         {
             LocalMethodExample localMethod = new LocalMethodExample();
             localMethod.InstanceLocalMethod();
-            Console.ReadLine();
             //49
+
+            localMethod.StaticLocalMethod();
+            //49
+           
+            Console.ReadLine();
+
         }
     }
 }
